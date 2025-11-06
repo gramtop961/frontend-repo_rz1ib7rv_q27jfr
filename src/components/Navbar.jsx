@@ -19,16 +19,16 @@ export default function Navbar() {
           <div className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-gradient-to-tr from-indigo-500 via-fuchsia-500 to-amber-400 text-white">
             <Rocket size={18} />
           </div>
-          <span className="text-sm sm:text-base tracking-tight">MyPremiumPortfolio</span>
+          <span className="text-sm sm:text-base tracking-tight">Meet Patel</span>
         </a>
         <div className="hidden md:flex items-center gap-6 text-sm">
           <a href="#projects" className="hover:text-indigo-600 transition-colors">Projects</a>
           <a href="#contact" className="hover:text-indigo-600 transition-colors">Contact</a>
           <div className="flex items-center gap-3">
-            <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-indigo-600 transition-colors">
+            <a href="https://github.com/meetpatelr" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-indigo-600 transition-colors">
               <Github size={18} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-indigo-600 transition-colors">
+            <a href="https://www.linkedin.com/in/meetpatelr/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-indigo-600 transition-colors">
               <Linkedin size={18} />
             </a>
           </div>

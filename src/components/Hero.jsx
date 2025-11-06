@@ -17,14 +17,14 @@ export default function Hero() {
         >
           <span className="inline-flex items-center rounded-full bg-white/70 dark:bg-black/40 backdrop-blur px-3 py-1 text-xs font-medium text-indigo-700 dark:text-indigo-300 ring-1 ring-black/5 dark:ring-white/10">Interactive • Modern • Playful</span>
           <h1 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight">
-            Premium portfolio with extraordinary animations
+            Meet Patel — Product Engineer & Frontend Developer
           </h1>
           <p className="mt-4 text-base sm:text-lg text-black/70 dark:text-white/70 max-w-xl">
-            I craft delightful, high-performance web experiences blending creative code, motion, and 3D.
+            I craft delightful, high-performance web experiences with TypeScript, React, and Next.js — blending motion, systems thinking, and 3D.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href="#projects" className="inline-flex items-center rounded-full bg-black text-white dark:bg-white dark:text-black px-5 py-2.5 text-sm font-medium shadow-sm hover:scale-[1.02] active:scale-[0.98] transition-transform">View work</a>
-            <a href="#contact" className="inline-flex items-center rounded-full bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-amber-400 text-white px-5 py-2.5 text-sm font-medium shadow-sm hover:opacity-95 transition-opacity">Get in touch</a>
+            <a href="#projects" className="inline-flex items-center rounded-full bg-black text-white dark:bg-white dark:text-black px-5 py-2.5 text-sm font-medium shadow-sm hover:scale-[1.02] active:scale-[0.98] transition-transform">View projects</a>
+            <a href="#contact" className="inline-flex items-center rounded-full bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-amber-400 text-white px-5 py-2.5 text-sm font-medium shadow-sm hover:opacity-95 transition-opacity">Contact</a>
           </div>
         </motion.div>
       </div>

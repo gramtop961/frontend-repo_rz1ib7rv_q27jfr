@@ -14,9 +14,9 @@ function App() {
       </main>
       <footer className="border-t border-black/5 dark:border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-10 text-sm flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="opacity-70">© {new Date().getFullYear()} Premium Portfolio — All rights reserved.</p>
+          <p className="opacity-70">© {new Date().getFullYear()} Meet Patel — All rights reserved.</p>
           <div className="opacity-70">
-            Built with care • Interactive • Modern
+            Built with React, Tailwind & Spline
           </div>
         </div>
       </footer>

@@ -3,21 +3,21 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Neon Commerce',
-    description: 'Modern e-commerce microfrontends with 3D product previews and SSR.',
-    tags: ['Next.js', 'Three.js', 'Stripe'],
+    title: 'Pebble Health — Web Experience',
+    description: 'Led frontend experience and performance tuning for a healthcare platform.',
+    tags: ['React', 'TypeScript', 'Vite'],
+    link: 'https://pebble.health',
+  },
+  {
+    title: 'Design Systems Playground',
+    description: 'Composable UI kit with tokens, motion primitives, and accessibility baked in.',
+    tags: ['Radix', 'Framer Motion', 'Storybook'],
     link: '#',
   },
   {
-    title: 'Motion Lab',
-    description: 'Experimental motion system for delightful UI feedback and transitions.',
-    tags: ['Framer Motion', 'Radix', 'TS'],
-    link: '#',
-  },
-  {
-    title: 'AI Studio',
-    description: 'Generative design assistant to co-create brand systems and visuals.',
-    tags: ['OpenAI', 'FastAPI', 'Vite'],
+    title: 'AI Workflow Studio',
+    description: 'Interactive canvas to chain tools and visualize AI workflows.',
+    tags: ['FastAPI', 'OpenAI', 'Next.js'],
     link: '#',
   },
 ];
@@ -29,7 +29,7 @@ export default function Projects() {
         <div className="mb-10 flex items-end justify-between">
           <div>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">Selected work</h2>
-            <p className="text-sm text-black/60 dark:text-white/60 mt-2">A snapshot of recent projects that blend technology and play.</p>
+            <p className="text-sm text-black/60 dark:text-white/60 mt-2">A snapshot of projects focused on craft, clarity, and speed.</p>
           </div>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
